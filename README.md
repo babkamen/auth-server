@@ -2,6 +2,10 @@
 
 This application was generated using JHipster, you can find documentation and help at [https://jhipster.github.io](https://jhipster.github.io).
 
+### Status
+
+[![Build Status](https://travis-ci.org/babkamen/spring-estore.png)](https://travis-ci.org/babkamen/auth-server)
+
 ## Development
 
 Before you can build this project, you must install and configure the following dependencies on your machine:
