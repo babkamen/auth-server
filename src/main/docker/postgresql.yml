@@ -1,0 +1,12 @@
+version: '2'
+services:
+    auth-postgresql:
+        container_name: auth-postgresql
+        image: postgres:9.5.3
+        # volumes:
+        #     - ~/volumes/jhipster/auth/postgresql/:/var/lib/postgresql/
+        environment:
+            - POSTGRES_USER=auth
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432
